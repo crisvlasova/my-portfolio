@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 40px;
+}
+
+.profile-photo {
+    padding:0;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    border: 5px solid rgba(255, 255, 255, 0.644);
+    margin-right: 50px;
+    z-index: 2;
+}
+
+.studied-techs {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.presentation-container h4 {
+    margin: 15px 0;
+}
+
+.presentation-container img {
+    width: 18px;
+}
+
+.presentation-container button {
+    background-color: #ffd6ff;
+    transition: background-color 0.25s ease;
+}
+
+.presentation-container button:hover {
+    background-color: #FCC5C0;
+}

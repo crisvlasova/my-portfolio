@@ -1,0 +1,8 @@
+.description {
+    color: black !important;
+    margin: 130px 130px 50px;
+    padding: 35px;
+    border: 2px solid black;
+    background-color: #fcc5c0c8;
+    font-family: 'Varela Round', sans-serif;
+}

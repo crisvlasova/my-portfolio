@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container button {
+    margin: 10px;
+    background-color: #ffd6ff;
+    align-items: center;
+    z-index: 2;
+    transition: background-color 0.25s ease;
+}
+
+.navbar-container button:hover {
+    background-color: #FCC5C0;
+}
+
+.navbar img {
+    width: 50px;
+    z-index: 2;
+}
