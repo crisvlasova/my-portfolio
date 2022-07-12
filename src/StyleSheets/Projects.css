@@ -1,0 +1,15 @@
+.breaking-bad-image {
+    width: 40em;
+    border: 2px solid black;
+}
+
+.projects-container {
+    z-index: 2;
+    object-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}

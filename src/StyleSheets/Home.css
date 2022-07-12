@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .profile-photo {
@@ -41,4 +41,14 @@
 
 .presentation-container button:hover {
     background-color: #FCC5C0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: rgb(172, 223, 255);
 }

@@ -1,6 +1,9 @@
 .App {
     padding: 30px;
-    box-shadow: inset 0 400px 200px -15px #FCC5C0;
+    box-shadow: inset 0 430px 200px -15px #FCC5C0;
     background-color: #937DC2;
     color: #ffeaff;
+    position: absolute; 
+    min-height:100%; 
+    min-width:100%;
 }
