@@ -13,3 +13,16 @@
     position: relative;
     z-index: 100;
 }
+
+.link-to {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.40s ease;
+}
+
+.link-to:hover {
+    font-size: 1.25em;
+    color: rgb(172, 223, 255);
+    text-decoration: none;
+}

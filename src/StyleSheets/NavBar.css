@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.active {
+    background-color: #FCC5C0;
+}
+
 .navbar-container button {
     margin: 10px;
     background-color: #ffd6ff;

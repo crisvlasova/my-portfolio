@@ -9,7 +9,7 @@ import reduxLogo from '../Images/icons8-redux-50.png'
 import nodeLogo from '../Images/icons8-node-js-32.png'
 import databaseLogo from '../Images/icons8-database-50.png'
 import downloadLogo from '../Images/icons8-download2-24.png'
-import downloadCv from '../Images/Cristina Vlassov cv.png'
+import downloadCv from '../Images/Cristina Vlassov En CV.pdf'
 import linkedinLogo from '../Images/icons8-linkedin-circled-30.png';
 import githubLogo from '../Images/icons8-github-24.png'
 import gmailLogo from '../Images/icons8-gmail-32.png'
@@ -38,8 +38,10 @@ export default function Home () {
                         Github
                     </a>
                 <br/>
-                    <img src={gmailLogo} alt='gmail'/>
-                    vlasovacristina@gmail.com
+                    <a href='mailto:vlasovacristina@gmail.com'>
+                        <img src={gmailLogo} alt='gmail'/>
+                        Gmail
+                    </a>
                 </div>
 
             </div>
