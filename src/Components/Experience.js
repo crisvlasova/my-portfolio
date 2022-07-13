@@ -6,7 +6,7 @@ export default function Experience () {
             <h2>Experience:</h2>
             <br/>
             <h5>My journey in programming started in January of 2022 when I met SoyHenry. After a few weeks
-            learning about JavaScript and HTML I realeazed this was my dream job. This was so exciting for me
+            learning about JavaScript and HTML I realeazed this was my dream job. I was so excited
             that I started developing project by myself as the autodidact person I am; currently I have 2 projects:
             one with only front end and the other one with front-end and back-end.
             Now I'm going through SoyHenry's last step: The final project, wich is about developing a SPA e-commerce,
