@@ -4,7 +4,8 @@ import { Link, useLocation } from 'react-router-dom';
 import '../StyleSheets/NavBar.css'
 
 export default function NavBar () {
-    let [active, setActive] = useState('')
+
+    let loc = useLocation().pathname
 
     return (
         <div className='navbar-container'>
@@ -15,18 +16,18 @@ export default function NavBar () {
                     </a>
                 </div>
             </nav>
-            <div>
+            <div className='button-container'>
                 <Link to='/'>
-                    <button value='/'>Home</button>
+                    <button value='/' className={loc === '/'? 'in-path' : null}>Home</button>
                 </Link>
                 <Link to='/aboutme'>
-                    <button value='/aboutme'>About me</button>
+                    <button value='/aboutme' className={loc === '/aboutme'? 'in-path' : null}>About me</button>
                 </Link>
                 <Link to='/experience'>
-                    <button value='/experience'>Experience</button>
+                    <button value='/experience' className={loc === '/experience'? 'in-path' : null}>Experience</button>
                 </Link>
                 <Link to='/projects'>
-                    <button value='/projects'>Projects</button>
+                    <button value='/projects' className={loc === '/projects'? 'in-path' : null}>Projects</button>
                 </Link>
 
                 {/* <button>EN</button>
