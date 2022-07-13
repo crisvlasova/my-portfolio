@@ -14,6 +14,7 @@
     background-color: #ffd6ff;
     align-items: center;
     z-index: 2;
+    position: relative;
     transition: background-color 0.25s ease;
 }
 

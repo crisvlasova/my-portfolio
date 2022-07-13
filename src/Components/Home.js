@@ -28,17 +28,17 @@ export default function Home () {
                 <br/>
 
                 <div className='contact'>
-                    <a href='https://www.linkedin.com/in/cristina-mikaela-vlassov-rodiguina-42a0a1236/'>
+                    <a href='https://www.linkedin.com/in/cristina-mikaela-vlassov-rodiguina-42a0a1236/' target='_blank' rel='noopener'>
                         <img src={linkedinLogo} alt='linkedin'/>
                         Linkedin
                     </a>
                 <br/>
-                    <a href='https://github.com/crisvlasova'>
+                    <a href='https://github.com/crisvlasova' target='_blank' rel='noopener'>
                         <img src={githubLogo} alt='github'/>
                         Github
                     </a>
                 <br/>
-                    <a href='mailto:vlasovacristina@gmail.com'>
+                    <a href='mailto:vlasovacristina@gmail.com' target='_blank' rel='noopener'>
                         <img src={gmailLogo} alt='gmail'/>
                         Gmail
                     </a>
