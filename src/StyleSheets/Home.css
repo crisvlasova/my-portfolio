@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    /* margin-top: 10px !important; */
+    margin-top: 5rem;
     position: relative;
     z-index: 2;
     text-shadow: 1px 1px 4px rgb(218, 152, 152);
@@ -47,7 +47,7 @@
 .contact a {
     text-decoration: none;
     color: white;
-    /* text-shadow: 1px 1px 4px rgb(197, 151, 151); */
+    text-shadow: 1px 1px 4px rgb(197, 151, 151);
     font-size:1.25em;
     position: relative;
 }
@@ -65,7 +65,7 @@
 @media only screen and (max-width: 840px) {
     .home-container {
         flex-direction: column;
-        margin-top: 0;
+        margin-top: 0rem;
     }
     .profile-photo {
         width: 50%;
