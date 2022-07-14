@@ -5,6 +5,7 @@ import AboutMe from './Components/AboutMe.js';
 import Experience from './Components/Experience.js';
 import Projects from './Components/Projects.js';
 import { Route } from 'react-router-dom';
+import 'animate.css'
 import './App.css';
 
 function App() {

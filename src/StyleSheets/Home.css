@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    margin-top: 70px;
+    /* margin-top: 10px !important; */
     position: relative;
     z-index: 2;
     text-shadow: 1px 1px 4px rgb(218, 152, 152);

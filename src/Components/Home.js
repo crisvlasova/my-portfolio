@@ -24,8 +24,6 @@ export default function Home () {
                 <h4>I'm a Junior Full-Stack Developer</h4>
 
                 <a href={downloadCv} download><button>Download my cv <img src={downloadLogo} alt='downloadlogo'/></button></a>
-                <br/>
-                <br/>
 
                 <div className='contact'>
                     <a href='https://www.linkedin.com/in/cristina-mikaela-vlassov-rodiguina-42a0a1236/' target='_blank' rel='noopener'>
