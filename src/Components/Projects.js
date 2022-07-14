@@ -6,7 +6,7 @@ import '../StyleSheets/Projects.css'
 
 export default function Projects () {
     return (
-        <div>
+        <div className='all-projects-container'>
             <div className='description projects-container'>
                 <h2>Front-end app:</h2>
                 <br/>

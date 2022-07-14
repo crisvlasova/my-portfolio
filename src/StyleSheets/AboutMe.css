@@ -1,11 +1,24 @@
 .description {
     color: black !important;
-    margin: 90px 10em;
+    margin: 5rem 12%;
     padding: 35px;
     border: 2px solid black;
     background-color: #fcc5c092;
     font-family: 'Varela Round', sans-serif;
     z-index: 2;
     position: relative;
-    object-position: top;
+    /* object-position: top; */
+}
+
+@media only screen and (max-width: 840px) {
+    .description {
+        margin: 3rem 4%;
+        padding: 20px;
+    }
+    .description h2 {
+        font-size: 25px;
+    }
+    .description h4 {
+        font-size: 18px;
+    }
 }

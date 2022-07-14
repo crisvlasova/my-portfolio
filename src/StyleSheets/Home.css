@@ -5,6 +5,9 @@
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
     margin-top: 70px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 1px 1px 4px rgb(218, 152, 152);
 }
 
 .profile-photo {
@@ -13,17 +16,15 @@
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
-    object-position: top;
     border: 5px solid rgba(255, 255, 255, 0.644);
     margin-right: 50px;
-    z-index: 2;
 }
 
 .studied-techs {
     margin-left: 150px;
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    width: 3.5rem;
 }
 
 .presentation-container h4 {
@@ -46,7 +47,9 @@
 .contact a {
     text-decoration: none;
     color: white;
+    /* text-shadow: 1px 1px 4px rgb(197, 151, 151); */
     font-size:1.25em;
+    position: relative;
 }
 
 .contact a:hover {
@@ -57,4 +60,36 @@
 .contact img {
     width: 1.5em;
     margin: 7px;
+}
+
+@media only screen and (max-width: 840px) {
+    .home-container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .profile-photo {
+        width: 50%;
+        height: 50%;
+        margin: 25px;
+        border: 3px solid rgba(255, 255, 255, 0.644);
+    }
+    .studied-techs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .studied-techs img {
+        width: 35px;
+        height: 35px;
+    }
+    .presentation-container h1 {
+        font-size: 31px;
+        /* text-shadow: 1px 1px 4px rgb(218, 152, 152); */
+    }
+    .presentation-container h4 {
+        font-size: 20px;
+        /* text-shadow: 1px 1px 4px rgb(218, 152, 152); */
+    }
 }

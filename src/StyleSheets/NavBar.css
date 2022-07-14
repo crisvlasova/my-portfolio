@@ -3,26 +3,49 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
+    transition: background-color 0.25s ease;
+
 }
 
 .in-path {
     background-color: #FCC5C0 !important;
 }
 
-.navbar-container button {
+.button-container img {
+    display: none
+}
+
+.navbar-button {
     margin: 10px;
     background-color: #ffd6ff;
     align-items: center;
-    z-index: 2;
-    position: relative;
-    transition: background-color 0.25s ease;
 }
 
-.navbar-container button:hover {
+.navbar-button:hover {
     background-color: #FCC5C0;
 }
 
 .navbar img {
     width: 50px;
-    z-index: 2;
+}
+
+@media only screen and (max-width: 840px) {
+    .navbar-button {
+        display: none;
+    }
+    .button-container img {
+        display: block;
+    }
+    .d-inline-block {
+        width: 40px !important;
+        margin: -7px -15px -15px !important;
+    }
+    .navbar-container {
+        flex: 1;
+        justify-content:flex-end;
+        text-align: right;
+        margin: -15px
+    }
 }
