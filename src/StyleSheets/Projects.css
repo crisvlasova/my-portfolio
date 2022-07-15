@@ -10,6 +10,7 @@
 }
 
 .projects-container {
+    margin: 50px !important;
     width: 33rem;
     z-index: 2;
     display: flex;
@@ -31,4 +32,13 @@
     font-size: 1.75rem;
     color: rgb(172, 223, 255);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 840px) {
+    .breaking-bad-image {
+        width: 15rem;
+    }
+    .projects-container {
+        width: 18rem;
+    }
 }
