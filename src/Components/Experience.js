@@ -16,7 +16,7 @@ export default function Experience () {
             that I started developing projects by myself as the autodidact person I am; currently I have 2 projects:
             one with only front end and the other one with front-end and back-end.
             Now I'm going through SoyHenry's last step: The final project, wich is about developing a SPA e-commerce,
-            with this one (hopefully) I'm finishing this Full-Stack Developing course. <br/>
+            with this one (hopefully) I'm finishing this Full-Stack Developing bootcamp. <br/>
             <br/>
             Also I was selected as a Teacher Assistant, wich consists in coordinating a students group to achieve
             integration between them and other groups, guiding them in the first steps of this course, assisting the
@@ -25,15 +25,8 @@ export default function Experience () {
             </h4>
             <br/>
             <h4>Languages, frameworks and libraries I've learned:
-                JavaScript,
-                HTML,
-                CSS,
-                React.js,
-                Redux,
-                Node.js,
-                Express.js,
-                SQL and
-                Sequelize.
+                <br/>
+                JavaScript, HTML, CSS, React.js, Redux, Node.js, Express.js, SQL and Sequelize.
             </h4>
                 <img src ={jsLogo} alt='jslogo' />
                 <img src ={htmlLogo} alt='htmllogo' />

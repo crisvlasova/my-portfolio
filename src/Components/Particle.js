@@ -42,12 +42,12 @@ export default function Particle () {
                 },
                 "size": {
                     "value": 4,
-                    "random": false,
+                    "random": true,
                     "anim": {
-                        "enable": false,
-                        "speed": 40,
+                        "enable": true,
+                        "speed": 8,
                         "size_min": 0.1,
-                        "sync": false
+                        "sync": true
                     }
                 },
                 "rotate": {

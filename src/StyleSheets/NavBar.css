@@ -51,7 +51,7 @@
         justify-content:flex-start;
         text-align: right;
         margin: -15px;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
     }
     .navbar-container .menu-logo {
         display:block !important;
@@ -62,14 +62,17 @@
     }
     .active-menu {
         height: 150px;
-        display:block;
-        margin: 5px;
+        display: block;
+        display:flex;
+        flex-direction: column;
+        margin-left: 5px;
     }
     .active-menu li {
+        margin-top: 7px;
+        display: inline-block;
+        text-decoration: none;
         font-size: 20px;
-        text-decoration: underline;
-        color: #ffeaff;
-        text-shadow: 1px 1px 4px rgb(218, 152, 152);
+        color: black;
         list-style-type: none;
     }
     .navbar-menu-container {
