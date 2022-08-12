@@ -4,10 +4,11 @@
     align-items: center;
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    margin-top: 5rem;
+    margin-top: 2rem;
     position: relative;
+    color:rgb(49, 49, 49);
     z-index: 2;
-    text-shadow: 1px 1px 4px rgb(218, 152, 152);
+    text-shadow: 1px 1px 6px white;
 }
 
 .profile-photo {
@@ -36,7 +37,7 @@
 }
 
 .presentation-container button {
-    background-color: #ffd6ff;
+    background-color: #ffd6ffcc;
     transition: background-color 0.25s ease;
 }
 
@@ -44,22 +45,29 @@
     background-color: #FCC5C0;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
 .contact a {
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 4px rgb(197, 151, 151);
+    color:rgb(49, 49, 49);
+    text-shadow: none;
     font-size:1.25em;
     position: relative;
+    transition: text-shadow 0.5s ease;
 }
-
 .contact a:hover {
+    color: rgb(49, 49, 49);
     text-decoration: underline;
-    color: rgb(172, 223, 255);
+    text-shadow: 1px 1px 7px white;
 }
 
 .contact img {
     width: 1.5em;
     margin: 7px;
+    color:rgb(68, 68, 68);
 }
 
 @media only screen and (max-width: 840px) {

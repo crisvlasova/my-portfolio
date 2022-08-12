@@ -20,6 +20,7 @@
     margin: 10px;
     background-color: #ffd6ff;
     align-items: center;
+    transition: background-color 0.5s ease;
 }
 
 .navbar-button:hover {

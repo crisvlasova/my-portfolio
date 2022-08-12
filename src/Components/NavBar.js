@@ -17,6 +17,25 @@ export default function NavBar () {
         }
     }
 
+    let links = [
+        {
+            to: '/',
+            name: 'Home'
+        },
+        {
+            to: '/aboutme',
+            name: 'About me'
+        },
+        {
+            to: '/experience',
+            name: 'Experience'
+        },
+        {
+            to: '/projects',
+            name: 'Projects'
+        },
+    ]
+
     return (
         <div className='navbar-menu-container'>
         <div className='navbar-container'>
@@ -30,23 +49,20 @@ export default function NavBar () {
             </nav>
 
             <div className='button-container'>
-                <Link to='/'>
-                    <button className={loc === '/'? 'in-path navbar-button' : 'navbar-button'}>Home</button>
-                </Link>
-                <Link to='/aboutme'>
-                    <button className={loc === '/aboutme'? 'in-path navbar-button' : 'navbar-button'}>About me</button>
-                </Link>
-                <Link to='/experience'>
-                    <button className={loc === '/experience'? 'in-path navbar-button' : 'navbar-button'}>Experience</button>
-                </Link>
-                <Link to='/projects'>
-                    <button className={loc === '/projects'? 'in-path navbar-button' : 'navbar-button'}>Projects</button>
-                </Link>
-                {/* <button>EN</button>
-                <button>ES</button> */}
+                {links.map(link => {return (
+                    <Link to={link.to}>
+                        <button className={loc === link.to? 'in-path navbar-button border border-white border-2' :
+                        'navbar-button border border-white border-2'}>
+                            {link.name}
+                        </button>
+                    </Link>
+                )})}
             </div>
         </div>
-        <div className={!active === false? 'active-menu animate__animated animate__slideInDown' : 'non-active-menu'}>
+        {/* <div>
+        <button className='btn btn-secondary dropdown-toggle'>Menu</button>
+        </div> */}
+        {/* <div className={!active === false? 'active-menu animate__animated animate__slideInDown' : 'non-active-menu'}>
         <Link to='/'>
             <li>Home</li>
         </Link>
@@ -59,7 +75,7 @@ export default function NavBar () {
         <Link to='/projects'>
             <li>Projects</li>
         </Link>
-        </div>
+        </div> */}
         </div>
     )
 }

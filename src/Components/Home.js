@@ -8,6 +8,8 @@ import reactLogo from '../Images/icons8-react-native-50.png'
 import reduxLogo from '../Images/icons8-redux-50.png'
 import nodeLogo from '../Images/icons8-node-js-32.png'
 import databaseLogo from '../Images/icons8-database-50.png'
+import tailwind from '../Images/tailwind.png'
+import bootstrap from '../Images/bootstrap.png'
 import downloadLogo from '../Images/icons8-download2-24.png'
 import downloadCv from '../Images/Cristina Vlassov En CV.pdf'
 import linkedinLogo from '../Images/icons8-linkedin-circled-30.png';
@@ -16,6 +18,23 @@ import gmailLogo from '../Images/icons8-gmail-32.png'
 
 
 export default function Home () {
+
+    let links = [
+        {   href: 'https://www.linkedin.com/in/cristina-mikaela-vlassov-rodiguina-42a0a1236/',
+            name:'Linkedin',
+            src: linkedinLogo
+        },   
+        {   href: 'https://github.com/crisvlasova',
+            name:'Github',
+            src: githubLogo
+        },
+        {   href: 'mailto:vlasovacristina@gmail.com',
+            name:'Gmail',
+            src: gmailLogo
+        }
+    ]
+    let logos = [jsLogo, htmlLogo, cssLogo, reactLogo, reduxLogo, nodeLogo, databaseLogo, tailwind, bootstrap]
+
     return (
         <div className='home-container'>
             <img className='profile-photo' src={photo} alt='profile-photo'/>
@@ -23,34 +42,22 @@ export default function Home () {
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
 
-                <a href={downloadCv} download><button>Download my cv <img src={downloadLogo} alt='downloadlogo'/></button></a>
+                <a href={downloadCv} download><button className='border border-white border-2'>Download my cv <img src={downloadLogo} alt='downloadlogo'/></button></a>
 
                 <div className='contact'>
-                    <a href='https://www.linkedin.com/in/cristina-mikaela-vlassov-rodiguina-42a0a1236/' target='_blank' rel='noopener'>
-                        <img src={linkedinLogo} alt='linkedin'/>
-                        Linkedin
-                    </a>
-                <br/>
-                    <a href='https://github.com/crisvlasova' target='_blank' rel='noopener'>
-                        <img src={githubLogo} alt='github'/>
-                        Github
-                    </a>
-                <br/>
-                    <a href='mailto:vlasovacristina@gmail.com' target='_blank' rel='noopener'>
-                        <img src={gmailLogo} alt='gmail'/>
-                        Gmail
-                    </a>
+                    {links.map(link => {return (
+                        <a href={link.href} target='_blank' rel='noopener noreferrer'>
+                            <img src={link.src} alt={link.name}/>
+                            {link.name}
+                        </a>
+                    )})}
                 </div>
 
             </div>
             <div className='studied-techs'>
-                <img src ={jsLogo} alt='jslogo' />
-                <img src ={htmlLogo} alt='htmllogo' />
-                <img src ={cssLogo} alt='csslogo' />
-                <img src ={reactLogo} alt='reactlogo' />
-                <img src ={reduxLogo} alt='reduxlogo' />
-                <img src ={nodeLogo} alt='nodelogo' />
-                <img src ={databaseLogo} alt='databaselogo' />
+                {logos.map(logo => {return (
+                    <img src ={logo} alt='logo' />
+                )})}
             </div>
         </div>
     )

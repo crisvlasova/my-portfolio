@@ -1,13 +1,13 @@
 import React from 'react';
-import breakingbad from '../Images/breaking-bad-app.png';
-import dogapp from '../Images/live-search.png';
+import dogImage from '../Images/dogImage.png';
+import breakingbad from '../Images/breakingbad.png';
 
 import '../StyleSheets/Projects.css'
 
 export default function Projects () {
     return (
         <div className='all-projects-container'>
-            <div className='description projects-container'>
+            <div className='description projects-container border border-white border-2'>
                 <h2>Front-end app:</h2>
                 <p>
                     This app was made with <a href='https://breakingbadapi.com/'>Breaking Bad Api</a> where
@@ -22,7 +22,7 @@ export default function Projects () {
             </div>
         <div>
         </div>
-            <div className='description projects-container'>
+            <div className='description projects-container border border-white border-2'>
                 <h2>Full-Stack app:</h2>
                 <p>
                     This app is was made with <a href='https://thedogapi.com/'>The dog api</a>, here we
@@ -30,7 +30,7 @@ export default function Projects () {
                     things of this page is the live search in navbar and temperament searching bar when creating a dog.
                     There are filters by race, weight and more! Visit the repository for more information.
                 </p>
-                <img src={dogapp} alt='dog-app' className='breaking-bad-image'/>
+                <img src={dogImage} alt='dog-app' className='breaking-bad-image'/>
                 <br/>
                 <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to' target='_blank' rel='noopener'>Visit repository</a></h5>
             </div>
