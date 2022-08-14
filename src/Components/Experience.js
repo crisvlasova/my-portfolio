@@ -15,16 +15,18 @@ export default function Experience () {
     return (
         <div className='experience-container description border border-white border-2'>
             <h2>Experience:</h2>
-            <h4>My journey started in January of 2022 when I met SoyHenry. After a few weeks
-            learning about JavaScript I realeazed this was my dream job. I was so excited
-            that I started developing projects by myself as the autodidact person I am; currently I have 3 projects:
-            one with only Front-end and two Full-Stack, you can visit them <Link to='projects'>here</Link>; I
-            graduated with the last project, the tech 'Unknown coder' e-commerce.<br/>
-            <br/>
-            Also I finished SoyHenry's Teacher Assistant program, wich consists in coordinating a students group to achieve
-            integration between them and other groups, guiding them in the first steps of this course, assisting the
-            pair programming and promoting group colaboration and finally proposing ideas to improve SoyHenry's
-            bootcamp processes.
+            <h4>
+                My journey started in January of 2022 when I met SoyHenry. After a few weeks
+                learning about JavaScript I realeazed this was my dream job. I was so excited
+                that I started developing projects by myself as the autodidact person I am; currently I have 3 projects:
+                one with only Front-end and two Full-Stack, you can visit them <Link to='projects'
+                className='text-decoration-none text-pink'>here</Link>; I
+                graduated with the last project, the tech 'Unknown coder' e-commerce.<br/>
+                <br/>
+                Also I finished SoyHenry's Teacher Assistant program, wich consists in coordinating a students group to achieve
+                integration between them and other groups, guiding them in the first steps of this course, assisting the
+                pair programming and promoting group colaboration and finally proposing ideas to improve SoyHenry's
+                bootcamp processes.
             </h4>
             <br/>
             <h4>Languages, frameworks and technologies I've learned until now:

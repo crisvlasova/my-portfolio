@@ -38,44 +38,37 @@ export default function NavBar () {
 
     return (
         <div className='navbar-menu-container'>
-        <div className='navbar-container'>
-            <img src={menu} alt='menu' className='menu-logo' onClick={toggleMenu}/>
-            <nav className="navbar">
-                <div className="container-fluid">
-                    <a className="navbar-brand">
-                        <img src={C} className="d-inline-block align-text-top"/>
-                    </a>
+            <div className='navbar-container'>
+                <div class="dropdown"  className='menu-logo'>
+                    <button class="border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src={menu} alt='menu' onClick={toggleMenu}/>
+                    </button>
+                    <ul class="dropdown-menu">
+                    {links.map(link => {return (
+                        <li><Link to={link.to} class="dropdown-item">{link.name}</Link></li>
+                    )})}
+                </ul>
                 </div>
-            </nav>
 
-            <div className='button-container'>
-                {links.map(link => {return (
-                    <Link to={link.to}>
-                        <button className={loc === link.to? 'in-path navbar-button border border-white border-2' :
-                        'navbar-button border border-white border-2'}>
-                            {link.name}
-                        </button>
-                    </Link>
-                )})}
+                <nav className="navbar">
+                    <div className="container-fluid">
+                        <a className="navbar-brand">
+                            <img src={C} className="d-inline-block align-text-top"/>
+                        </a>
+                    </div>
+                </nav>
+
+                <div className='button-container'>
+                    {links.map(link => {return (
+                        <Link to={link.to}>
+                            <button className={loc === link.to? 'in-path navbar-button border border-white border-2' :
+                            'navbar-button border border-white border-2'}>
+                                {link.name}
+                            </button>
+                        </Link>
+                    )})}
+                </div>
             </div>
-        </div>
-        {/* <div>
-        <button className='btn btn-secondary dropdown-toggle'>Menu</button>
-        </div> */}
-        {/* <div className={!active === false? 'active-menu animate__animated animate__slideInDown' : 'non-active-menu'}>
-        <Link to='/'>
-            <li>Home</li>
-        </Link>
-        <Link to='/aboutme'>
-            <li>About me</li>
-        </Link>
-        <Link to='/experience'>
-            <li>Experience</li>
-        </Link>
-        <Link to='/projects'>
-            <li>Projects</li>
-        </Link>
-        </div> */}
         </div>
     )
 }

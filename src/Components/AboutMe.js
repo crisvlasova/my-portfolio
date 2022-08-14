@@ -7,8 +7,8 @@ export default function AboutMe () {
         <div className='about-me-presentation description border border-white border-2'>
             <div>
                 <h2>About me:</h2>
-                <h4>I'm Cristina, I'm 20 years old and currently working as a Makeup Artist, Bartender and studying
-                to be a Full-Stack Developer.
+                <h4>I'm Cristina, I'm 20 years old and currently searching for a Full-Stack developer position,
+                    also I'm working as a Makeup Artist and as a Bartender .
                 <br/>
                 I am a hard working and versatile person, being capable of adapting to any environment.
                 I am a fastlearner, always willing to learn new skills.

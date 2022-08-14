@@ -23,12 +23,11 @@
 
 .link-to {
     font-size: 1.25rem;
-    text-decoration: none;
     color: white;
 }
 
 .link-to:hover {
-    color: rgb(172, 223, 255);
+    text-decoration: underline !important;
     /* text-decoration: none; */
 }
 

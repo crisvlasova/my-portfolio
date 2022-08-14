@@ -5,6 +5,7 @@ import breakingbad from '../Images/breakingbad.png';
 import '../StyleSheets/Projects.css'
 
 export default function Projects () {
+
     return (
         <div className='all-projects-container'>
             <div className='description projects-container border border-white border-2'>
@@ -16,9 +17,9 @@ export default function Projects () {
                 </p>
                 <img src={breakingbad} alt='breaking-bad' className='breaking-bad-image'/>
                 <br/>
-                <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to' target='_blank' rel='noopener'>Visit page</a></h5>
+                <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
                 <br/>
-                <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to' target='_blank' rel='noopener'>Visit repository</a></h5>
+                <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
             </div>
         <div>
         </div>
@@ -32,7 +33,7 @@ export default function Projects () {
                 </p>
                 <img src={dogImage} alt='dog-app' className='breaking-bad-image'/>
                 <br/>
-                <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to' target='_blank' rel='noopener'>Visit repository</a></h5>
+                <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
             </div>
         </div>
     )
