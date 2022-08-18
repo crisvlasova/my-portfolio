@@ -32,9 +32,6 @@
 }
 
 @media only screen and (max-width: 840px) {
-    /* .breaking-bad-image {
-        width: 15rem;
-    } */
     .projects-container {
         width: 100%;
         margin: 15px;

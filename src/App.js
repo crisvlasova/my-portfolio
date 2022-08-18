@@ -4,6 +4,7 @@ import Particle from './Components/Particle.js';
 import AboutMe from './Components/AboutMe.js';
 import Experience from './Components/Experience.js';
 import Projects from './Components/Projects.js';
+import GetInTouch from './Components/GetInTouch.js';
 import { Route } from 'react-router-dom';
 import 'animate.css'
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
       <Route path='/aboutme' component={AboutMe}/>
       <Route path='/experience' component={Experience}/>
       <Route path='/projects' component={Projects}/>
+      <Route path='/contact' component={GetInTouch}/>
     </div>
   );
 }

@@ -30,9 +30,8 @@
 .navbar img {
     width: 50px;
 }
-
-.active-menu {
-    display:none;
+.responsive-menu {
+    display: none;
 }
 
 @media only screen and (max-width: 840px) {
@@ -50,12 +49,8 @@
         margin: -15px;
         margin-bottom: 8px;
     }
-    .navbar-container .menu-logo {
-        display:block !important;
-        margin: 10px;
-    }
-    .active-menu {
-        display: block
+    .responsive-menu {
+        display: flex;
     }
     .navbar-menu-container {
         display: flex;

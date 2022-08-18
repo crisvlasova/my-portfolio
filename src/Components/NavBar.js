@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import C from '../Images/icons8-constellation2-64.png'
 import { Link, useLocation } from 'react-router-dom';
 import menu from '../Images/icons8-menu-24.png';
@@ -6,6 +6,12 @@ import '../StyleSheets/NavBar.css';
 
 export default function NavBar () {
     let loc = useLocation().pathname
+    let [active, setActive] = useState()
+
+    function handleClick () {
+        if(active) return setActive(false)
+        return setActive(true)
+    }
 
     let links = [
         {
@@ -24,6 +30,10 @@ export default function NavBar () {
             to: '/projects',
             name: 'Projects'
         },
+        {
+            to: '/contact',
+            name: 'Get in touch'
+        },
     ]
 
     return (
@@ -37,6 +47,19 @@ export default function NavBar () {
                         </a>
                     </div>
                 </nav>
+
+                <div className='responsive-menu flex-column justify-content-start'>
+                    <button onClick={handleClick}><img src={menu}/></button>
+                    <div class={active? 'd-flex flex-column' : 'd-none'}>
+                        {links.map(link => {return (
+                            <Link to={link.to}>
+                                <button>
+                                    {link.name}
+                                </button>
+                            </Link>
+                        )})}
+                    </div>
+                </div>
 
                 <div className='button-container'>
                     {links.map(link => {return (
