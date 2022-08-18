@@ -11,7 +11,7 @@ import databaseLogo from '../Images/icons8-database-50.png'
 import tailwind from '../Images/tailwind.png'
 import bootstrap from '../Images/bootstrap.png'
 import downloadLogo from '../Images/icons8-download2-24.png'
-import downloadCv from '../Images/Cristina Vlassov En CV.pdf'
+import downloadCv from '../Images/Cristina Vlassov EN.pdf'
 import linkedinLogo from '../Images/icons8-linkedin-circled-30.png';
 import githubLogo from '../Images/icons8-github-24.png'
 import gmailLogo from '../Images/icons8-gmail-32.png'

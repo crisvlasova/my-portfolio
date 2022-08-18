@@ -12,7 +12,7 @@
     background-color: #FCC5C0 !important;
 }
 
-.navbar-container .menu-logo {
+.menu-logo {
     display: none !important;
 }
 
@@ -29,10 +29,6 @@
 
 .navbar img {
     width: 50px;
-}
-
-.non-active-menu {
-    display:none;
 }
 
 .active-menu {
@@ -58,23 +54,8 @@
         display:block !important;
         margin: 10px;
     }
-    .non-active-menu {
-        display:none;
-    }
     .active-menu {
-        height: 150px;
-        display: block;
-        display:flex;
-        flex-direction: column;
-        margin-left: 5px;
-    }
-    .active-menu li {
-        margin-top: 7px;
-        display: inline-block;
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        list-style-type: none;
+        display: block
     }
     .navbar-menu-container {
         display: flex;

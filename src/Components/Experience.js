@@ -23,7 +23,7 @@ export default function Experience () {
                 className='text-decoration-none text-pink'>here</Link>; I
                 graduated with the last project, the tech 'Unknown coder' e-commerce.<br/>
                 <br/>
-                Also I finished SoyHenry's Teacher Assistant program, wich consists in coordinating a students group to achieve
+                Also I finished SoyHenry's Teacher Assistant programm, wich consists in coordinating a students group to achieve
                 integration between them and other groups, guiding them in the first steps of this course, assisting the
                 pair programming and promoting group colaboration and finally proposing ideas to improve SoyHenry's
                 bootcamp processes.

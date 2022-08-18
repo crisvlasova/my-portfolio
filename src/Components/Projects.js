@@ -1,7 +1,7 @@
 import React from 'react';
 import dogImage from '../Images/dogImage.png';
 import breakingbad from '../Images/breakingbad.png';
-
+import pf from '../Images/pf.png'
 import '../StyleSheets/Projects.css'
 
 export default function Projects () {
@@ -21,8 +21,6 @@ export default function Projects () {
                 <br/>
                 <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
             </div>
-        <div>
-        </div>
             <div className='description projects-container border border-white border-2'>
                 <h2>Full-Stack app:</h2>
                 <p>
@@ -34,6 +32,20 @@ export default function Projects () {
                 <img src={dogImage} alt='dog-app' className='breaking-bad-image'/>
                 <br/>
                 <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+            </div>
+            <div className='description projects-container border border-white border-2'>
+                <h2>Full-Stack app:</h2>
+                <p>
+                    This is my final project from Henry's ootcamp, is a tech e-commerce. I led the Front-end part developing
+                    the design of the page, responsive and authentication with Auth0.
+                    The used technologies were JavaScript, React, Redux, Bootstrap, CSS, HTML, Node.js, Express.js, Sequelize
+                    and SQL
+                </p>
+                <img src={pf} alt='pf' className='breaking-bad-image'/>
+                <br/>
+                <h5><a href='https://github.com/FranciscoMastropierro/PG-SoyHenry' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                <br/>
+                <h5><a href='https://unknowncoder.vercel.app/' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
             </div>
         </div>
     )

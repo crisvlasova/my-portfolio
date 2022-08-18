@@ -1,21 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import C from '../Images/icons8-constellation2-64.png'
 import { Link, useLocation } from 'react-router-dom';
 import menu from '../Images/icons8-menu-24.png';
 import '../StyleSheets/NavBar.css';
 
 export default function NavBar () {
-    const [active, setActive] = useState(false)
-
     let loc = useLocation().pathname
-
-    function toggleMenu () {
-        if(active) {
-            setActive(false)
-        } else {
-            setActive(true)
-        }
-    }
 
     let links = [
         {
@@ -38,17 +28,7 @@ export default function NavBar () {
 
     return (
         <div className='navbar-menu-container'>
-            <div className='navbar-container'>
-                <div class="dropdown"  className='menu-logo'>
-                    <button class="border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src={menu} alt='menu' onClick={toggleMenu}/>
-                    </button>
-                    <ul class="dropdown-menu">
-                    {links.map(link => {return (
-                        <li><Link to={link.to} class="dropdown-item">{link.name}</Link></li>
-                    )})}
-                </ul>
-                </div>
+            <div className='d-flex flex-row justify-content-center align-items-center position-relative'>
 
                 <nav className="navbar">
                     <div className="container-fluid">
