@@ -1,11 +1,6 @@
-.navbar-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.navbar-menu-container {
     position: relative;
-    z-index: 2;
-    transition: background-color 0.25s ease;
+    z-index: 5
 }
 
 .in-path {
@@ -42,15 +37,9 @@
         width: 40px !important;
         margin: -7px -15px -15px !important;
     }
-    .navbar-container {
-        flex: 1;
-        justify-content:flex-start;
-        text-align: right;
-        margin: -15px;
-        margin-bottom: 8px;
-    }
     .responsive-menu {
         display: flex;
+        z-index: 7
     }
     .navbar-menu-container {
         display: flex;

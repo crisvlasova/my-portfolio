@@ -38,7 +38,7 @@ export default function NavBar () {
 
     return (
         <div className='navbar-menu-container'>
-            <div className='d-flex flex-row justify-content-center align-items-center position-relative'>
+            <div className=' d-flex flex-row justify-content-center align-items-center position-relative'>
 
                 <nav className="navbar">
                     <div className="container-fluid">
@@ -48,12 +48,14 @@ export default function NavBar () {
                     </div>
                 </nav>
 
-                <div className='responsive-menu flex-column justify-content-start'>
-                    <button onClick={handleClick}><img src={menu}/></button>
-                    <div class={active? 'd-flex flex-column' : 'd-none'}>
+                <div className={active? 'responsive-menu d-block' : 'responsive-menu'}>
+                    <button onClick={handleClick} className='bg-transparent border border-0'>
+                        <img src={menu}/>
+                    </button>
+                    <div class={active? 'd-flex flex-column position-absolute' : 'd-none'}>
                         {links.map(link => {return (
                             <Link to={link.to}>
-                                <button>
+                                <button className='bg-transparent border border-0'>
                                     {link.name}
                                 </button>
                             </Link>

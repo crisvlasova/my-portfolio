@@ -1,6 +1,5 @@
 .breaking-bad-image {
     width: 100%;
-    border: 2px solid black;
 }
 
 .all-projects-container {
@@ -28,7 +27,6 @@
 
 .link-to:hover {
     text-decoration: underline !important;
-    /* text-decoration: none; */
 }
 
 @media only screen and (max-width: 840px) {
