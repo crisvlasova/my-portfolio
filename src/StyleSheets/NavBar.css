@@ -42,7 +42,7 @@
     }
 
     .responsive-menu {
-        display: flex;
+        display: block;
         z-index: 7
     }
 

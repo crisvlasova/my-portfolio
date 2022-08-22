@@ -48,7 +48,7 @@ export default function NavBar () {
                     </div>
                 </nav>
 
-                <div className={active? 'responsive-menu d-block' : 'responsive-menu'}>
+                <div className={active && 'responsive-menu'}>
                     <button onClick={handleClick} className='bg-transparent border border-0'>
                         <img src={menu}/>
                     </button>
