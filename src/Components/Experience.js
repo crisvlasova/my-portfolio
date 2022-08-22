@@ -35,7 +35,7 @@ export default function Experience () {
                 Tailwind.
             </h4>
                 {logos.map(logo => {return (
-                    <img src ={logo} alt='logo' />
+                    <img src ={logo} alt='logo' key={logo}/>
                 )})}
         </div>
     )

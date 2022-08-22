@@ -46,7 +46,7 @@ export default function Home () {
 
                 <div className='contact'>
                     {links.map(link => {return (
-                        <a href={link.href} target='_blank' rel='noopener noreferrer'>
+                        <a href={link.href} key={link.name} target='_blank' rel='noopener noreferrer'>
                             <img src={link.src} alt={link.name}/>
                             {link.name}
                         </a>
@@ -56,7 +56,7 @@ export default function Home () {
             </div>
             <div className='studied-techs'>
                 {logos.map(logo => {return (
-                    <img src ={logo} alt='logo' />
+                    <img src ={logo} alt='logo' key={logo}/>
                 )})}
             </div>
         </div>

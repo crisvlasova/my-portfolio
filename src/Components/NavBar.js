@@ -52,10 +52,10 @@ export default function NavBar () {
                     <button onClick={handleClick} className='bg-transparent border border-0'>
                         <img src={menu}/>
                     </button>
-                    <div class={active? 'd-flex flex-column position-absolute' : 'd-none'}>
+                    <div className={active? 'responsive-menu-div flex-column position-absolute' : 'd-none'}>
                         {links.map(link => {return (
-                            <Link to={link.to}>
-                                <button className='bg-transparent border border-0'>
+                            <Link to={link.to} className={loc === link.to? 'in-path' : null}>
+                                <button onClick={handleClick} className='bg-transparent border border-0'>
                                     {link.name}
                                 </button>
                             </Link>
