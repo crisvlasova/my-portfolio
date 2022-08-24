@@ -4,12 +4,12 @@ import { Link, useLocation } from 'react-router-dom';
 import menu from '../Images/icons8-menu-24.png';
 import '../StyleSheets/NavBar.css';
 
-export default function NavBar () {
+export default function NavBar() {
     let loc = useLocation().pathname
     let [active, setActive] = useState()
 
-    function handleClick () {
-        if(active) return setActive(false)
+    function handleClick() {
+        if (active) return setActive(false)
         return setActive(true)
     }
 
@@ -43,35 +43,39 @@ export default function NavBar () {
                 <nav className="navbar">
                     <div className="container-fluid">
                         <a className="navbar-brand">
-                            <img src={C} className="d-inline-block align-text-top"/>
+                            <img src={C} className="d-inline-block align-text-top" />
                         </a>
                     </div>
                 </nav>
 
-                <div className={active && 'responsive-menu'}>
+                <div className='responsive-menu'>
                     <button onClick={handleClick} className='bg-transparent border border-0'>
-                        <img src={menu}/>
+                        <img src={menu} />
                     </button>
-                    <div className={active? 'responsive-menu-div flex-column position-absolute' : 'd-none'}>
-                        {links.map(link => {return (
-                            <Link to={link.to} className={loc === link.to? 'in-path' : null}>
-                                <button onClick={handleClick} className='bg-transparent border border-0'>
-                                    {link.name}
-                                </button>
-                            </Link>
-                        )})}
+                    <div className={active ? 'responsive-menu-div flex-column position-absolute' : 'd-none'}>
+                        {links.map(link => {
+                            return (
+                                <Link to={link.to} className={loc === link.to ? 'in-path' : null}>
+                                    <button onClick={handleClick} className='bg-transparent border border-0'>
+                                        {link.name}
+                                    </button>
+                                </Link>
+                            )
+                        })}
                     </div>
                 </div>
 
                 <div className='button-container'>
-                    {links.map(link => {return (
-                        <Link to={link.to}>
-                            <button className={loc === link.to? 'in-path navbar-button border border-white border-2' :
-                            'navbar-button border border-white border-2'}>
-                                {link.name}
-                            </button>
-                        </Link>
-                    )})}
+                    {links.map(link => {
+                        return (
+                            <Link to={link.to}>
+                                <button className={loc === link.to ? 'in-path navbar-button border border-white border-2' :
+                                    'navbar-button border border-white border-2'}>
+                                    {link.name}
+                                </button>
+                            </Link>
+                        )
+                    })}
                 </div>
             </div>
         </div>

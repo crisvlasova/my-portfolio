@@ -42,7 +42,7 @@
     }
 
     .responsive-menu {
-        display: block;
+        display: flex;
         z-index: 7
     }
 
@@ -55,7 +55,7 @@
         display: flex;
         background: #ffd6fff0;
         border: 2px solid white;
-        margin: 10px 0 0 15px;
+        margin: 40px 0 0 15px;
         font-size: 18px;
     }
 
