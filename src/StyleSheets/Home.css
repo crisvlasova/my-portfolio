@@ -37,12 +37,12 @@
 }
 
 .presentation-container button {
-    background-color: #ffd6ffcc;
+    background-color: #fff0ee92;
     transition: background-color 0.25s ease;
 }
 
 .presentation-container button:hover {
-    background-color: #FCC5C0;
+    background-color: #e7c4e8;
 }
 
 .contact {

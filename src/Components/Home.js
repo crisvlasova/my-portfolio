@@ -42,7 +42,7 @@ export default function Home () {
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
 
-                <a href={downloadCv} download><button className='border border-white border-2'>Download my cv <img src={downloadLogo} alt='downloadlogo'/></button></a>
+                <a href={downloadCv} download><button className='border border-0 rounded-1'>Download my cv <img src={downloadLogo} alt='downloadlogo'/></button></a>
 
                 <div className='contact'>
                     {links.map(link => {return (

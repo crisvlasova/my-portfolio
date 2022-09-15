@@ -4,7 +4,7 @@ import photo from '../Images/barman2.png';
 
 export default function AboutMe () {
     return (
-        <div className='about-me-presentation description border border-white border-2'>
+        <div className='about-me-presentation description border border-0 rounded-2'>
             <div>
                 <h2>About me:</h2>
                 <h4>I'm Cristina, I'm 20 years old and currently searching for a Full-Stack developer position,

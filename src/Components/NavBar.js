@@ -36,6 +36,8 @@ export default function NavBar() {
         },
     ]
 
+    let navbutton = 'navbar-button border border-0 rounded-1'
+
     return (
         <div className='navbar-menu-container'>
             <div className=' d-flex flex-row justify-content-center align-items-center position-relative'>
@@ -69,8 +71,8 @@ export default function NavBar() {
                     {links.map(link => {
                         return (
                             <Link to={link.to}>
-                                <button className={loc === link.to ? 'in-path navbar-button border border-white border-2' :
-                                    'navbar-button border border-white border-2'}>
+                                <button className={loc === link.to ? `in-path ${navbutton}` :
+                                    navbutton}>
                                     {link.name}
                                 </button>
                             </Link>

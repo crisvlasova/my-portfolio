@@ -2,26 +2,18 @@
     position: relative;
     z-index: 5
 }
-
 .in-path {
-    background: #FCC5C0 !important;
+    background: transparent !important;
 }
-
-.menu-logo {
-    display: none !important;
-}
-
 .navbar-button {
     margin: 10px;
-    background: #ffd6ff;
+    background-color: #fff0ee92;
     align-items: center;
     transition: background 0.5s ease;
 }
-
 .navbar-button:hover {
-    background: #FCC5C0;
+    background: transparent;
 }
-
 .navbar img {
     width: 50px;
 }

@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 export default function Experience () {
     let logos = [jsLogo, htmlLogo, cssLogo, reactLogo, reduxLogo, nodeLogo, databaseLogo, tailwind, bootstrap]
     return (
-        <div className='experience-container description border border-white border-2'>
+        <div className='experience-container description border border-0 rounded-2'>
             <h2>Experience:</h2>
             <h4>
                 My journey started in January of 2022 when I met SoyHenry. After a few weeks

@@ -1,3 +1,22 @@
+.getintouch {
+    color: rgb(55, 55, 55);
+    margin: 5rem 25%;
+    padding: 35px;
+    background-color: #ffd6d192;
+}
+.textarea:focus,
+.getintouch input:focus {
+    outline: none;
+}
+.getintouch button:hover {
+    background-color: #fccfcaf7;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset ! important;
+}
 .textarea {
     resize: none;
 }

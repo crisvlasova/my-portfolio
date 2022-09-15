@@ -20,15 +20,15 @@ export default function () {
     };
 
     return (
-        <div className='description border border-white border-2 d-flex justify-content-center'>
+        <div className='getintouch border border-0 rounded-2 d-flex justify-content-center'>
             <form ref={form} onSubmit={sendEmail} className='d-flex flex-column'>
                 <label>From: </label>
-                <input type="text" name="user_name" placeholder='Your name' className={styles}/>
+                <input type="text" name="user_name" placeholder='Your name' className={`${styles} border border-0 rounded-1`}/>
                 <label>Email: </label>
-                <input type="email" name="user_email" placeholder='Your Email' className={styles}/>
+                <input type="email" name="user_email" placeholder='Your Email' className={`${styles} border border-0 rounded-1`}/>
                 <label>Message: </label>
-                <textarea className={`textarea ${styles}`} name="Your message" placeholder='Message' cols='30' rows='6'/>
-                <input type="submit" value="Send" className='navbar-button mt-2 border border-white border-2'/>
+                <textarea className={`textarea ${styles} border border-0 rounded-1`} name="Your message" placeholder='Message' cols='30' rows='6'/>
+                <button type="submit" value="Send" className='navbar-button mt-2 border border-0 rounded-1'>Send</button>
             </form>
         </div>
     )
