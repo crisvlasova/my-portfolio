@@ -1,8 +1,8 @@
 .App {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: center; */
     padding: 2rem;
     /* background: linear-gradient(#FCC5C0 30%,#937DC2 90%); */
     background: #0b466b;
