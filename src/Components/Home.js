@@ -44,8 +44,8 @@ export default function Home () {
 
                 {/* <img src={downloadLogo} alt='downloadlogo'/> */}
                 <div className='contact'>
-                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae </button></a>
-                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae </button></a>
+                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae</button></a>
+                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Cover Letter</button></a>
                     {links.map(link => {return (
                         <a href={link.href} key={link.name} class="anchor" target='_blank' rel='noopener noreferrer'>
                             <img src={link.src} alt={link.name}/>
