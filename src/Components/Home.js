@@ -11,6 +11,7 @@ import databaseLogo from '../Images/icons8-database-50.png'
 import tailwind from '../Images/tailwind.png'
 import bootstrap from '../Images/bootstrap.png'
 import downloadCv from '../Images/Cristina Vlassov EN.pdf'
+import coverLetter from '../Images/Cover letter EN.pdf'
 import linkedinLogo from '../Images/icons8-linkedin-circled-30.png';
 import githubLogo from '../Images/icons8-github-24.png'
 import gmailLogo from '../Images/icons8-gmail-32.png'
@@ -41,8 +42,8 @@ export default function Home () {
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
 
-                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae </button></a>
-                {/* <img src={downloadLogo} alt='downloadlogo'/> */}
+                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my CV</button></a>
+                <a href={coverLetter} download><button class='border border-0 rounded py-1 px-3'>Download my Cover letter</button></a>
                 <div className='contact'>
                     {links.map(link => {return (
                         <a href={link.href} key={link.name} class="anchor" target='_blank' rel='noopener noreferrer'>
