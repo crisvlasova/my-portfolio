@@ -17,10 +17,12 @@ export default function Projects() {
                     the page or the repository.
                 </p>
                 <img src={breakingbad} alt='breaking-bad' className='breaking-bad-image rounded-2' />
-                <br />
-                <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
-                <br />
-                <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                <br/>
+                <div className ='link-container'>
+                    <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                    <br />
+                    <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
+                </div>
             </div>
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>Full-Stack app:</h2>
@@ -31,8 +33,10 @@ export default function Projects() {
                     There are filters by race, weight and more! Visit the repository for more information.
                 </p>
                 <img src={dogImage} alt='dog-app' className='breaking-bad-image rounded-2' />
-                <br />
-                <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                <br/>
+                <div className ='link-container'>
+                    <h5><a href='https://github.com/crisvlasova/Dog-App' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                </div>
             </div>
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>Full-Stack app:</h2>
@@ -44,9 +48,11 @@ export default function Projects() {
                 </p>
                 <img src={pf} alt='pf' className='breaking-bad-image rounded-2' />
                 <br />
-                <h5><a href='https://github.com/FranciscoMastropierro/PG-SoyHenry' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
-                <br />
-                <h5><a href='https://unknowncoder.vercel.app/' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
+                <div className ='link-container'>
+                    <h5><a href='https://github.com/FranciscoMastropierro/PG-SoyHenry' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                    <br />
+                    <h5><a href='https://unknowncoder.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
+                </div>
             </div>
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>Front-End app:</h2>
@@ -55,9 +61,11 @@ export default function Projects() {
                 </p>
                 <img src={partyRoom} alt='party room image' className='breaking-bad-image rounded-2' />
                 <br />
-                <h5><a href='https://github.com/crisvlasova/matiss' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
-                <br />
-                <h5><a href='https://matiss.vercel.app/' className='link-to text-black text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
+                <div className ='link-container'>
+                    <h5><a href='https://github.com/crisvlasova/matiss' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
+                    <br />
+                    <h5><a href='https://matiss.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
+                    </div>
             </div>
         </div>
     )

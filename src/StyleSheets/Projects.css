@@ -29,6 +29,13 @@
     text-decoration: underline !important;
 }
 
+.link-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 840px) {
     .projects-container {
         width: 100%;

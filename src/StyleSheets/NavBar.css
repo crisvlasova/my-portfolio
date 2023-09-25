@@ -4,15 +4,17 @@
 }
 .in-path {
     background: transparent !important;
+    color: #00b7ffbd;
 }
 .navbar-button {
     margin: 10px;
-    background-color: #fff0ee92;
+    background-color: #dff6ff8e;
     align-items: center;
     transition: background 0.5s ease;
 }
 .navbar-button:hover {
     background: transparent;
+    color: #DFF6FF;
 }
 .navbar img {
     width: 50px;
@@ -35,7 +37,7 @@
 
     .responsive-menu {
         display: flex;
-        z-index: 7
+        z-index: 7;
     }
 
     .navbar-menu-container {
@@ -45,10 +47,25 @@
 
     .responsive-menu-div {
         display: flex;
-        background: #ffd6fff0;
-        border: 2px solid white;
-        margin: 40px 0 0 15px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 5px;
+        background: #66b8d8c9;
+        border-radius: 20px;
+        margin: 0 0 0 35px;
         font-size: 18px;
+        border: 2px solid white;
+        /* border: none !important; */
+    }
+
+    .menu-button {
+        border: none;
+    }
+
+    .in-path {
+        background-color: #DFF6FF !important;
+        border-radius: 10px;
     }
 
     .responsive-menu-div Link {
@@ -61,6 +78,11 @@
     }
 
     .responsive-menu-div button:active {
-        background-color: #FCC5C0 !important;
+        background-color: #DFF6FF !important;
+        border-radius: 10px;
+    }
+
+    .menu-img {
+        transform: rotate(90);
     }
 }

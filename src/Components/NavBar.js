@@ -36,7 +36,7 @@ export default function NavBar() {
         },
     ]
 
-    let navbutton = 'navbar-button border border-0 rounded-1'
+    let navbutton = 'navbar-button border border-0 rounded rounded py-1 px-2'
 
     return (
         <div className='navbar-menu-container'>
@@ -51,14 +51,14 @@ export default function NavBar() {
                 </nav>
 
                 <div className='responsive-menu'>
-                    <button onClick={handleClick} className='bg-transparent border border-0'>
-                        <img src={menu} />
+                    <button onClick={handleClick} class='menu-img bg-transparent border transparent border-0  text-white'>
+                        <img src={menu}></img>
                     </button>
-                    <div className={active ? 'responsive-menu-div flex-column position-absolute' : 'd-none'}>
+                    <div className={active ? 'responsive-menu-div flex-column position-absolute p-3' : 'd-none'}>
                         {links.map(link => {
                             return (
                                 <Link to={link.to} className={loc === link.to ? 'in-path' : null}>
-                                    <button onClick={handleClick} className='bg-transparent border border-0'>
+                                    <button onClick={handleClick} class='menu-button bg-transparent'>
                                         {link.name}
                                     </button>
                                 </Link>

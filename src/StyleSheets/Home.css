@@ -6,9 +6,9 @@
     font-family: 'Varela Round', sans-serif;
     margin-top: 2rem;
     position: relative;
-    color:rgb(49, 49, 49);
+    color:DFF6FF;
     z-index: 2;
-    text-shadow: 1px 1px 6px white;
+    /* text-shadow: 1px 1px 6px white; */
 }
 
 .profile-photo {
@@ -37,37 +37,42 @@
 }
 
 .presentation-container button {
-    background-color: #fff0ee92;
+    background: #dff6ff8e;
     transition: background-color 0.25s ease;
 }
 
 .presentation-container button:hover {
-    background-color: #e7c4e8;
+    background-color: transparent;
+    color: #DFF6FF;
+    transition: background-color 0.5s ease, ;
 }
 
 .contact {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
     margin-top: 10px;
 }
+
 .contact a {
     text-decoration: none;
-    color:rgb(49, 49, 49);
+    color: #DFF6FF;
     text-shadow: none;
     font-size:1.25em;
     position: relative;
     transition: text-shadow 0.5s ease;
 }
 .contact a:hover {
-    color: rgb(49, 49, 49);
-    text-decoration: underline;
+    color: #DFF6FF;
+    text-decoration: none;
     text-shadow: 1px 1px 7px white;
 }
 
 .contact img {
     width: 1.5em;
     margin: 7px;
-    color:rgb(68, 68, 68);
+    color:#DFF6FF;
 }
 
 @media only screen and (max-width: 840px) {

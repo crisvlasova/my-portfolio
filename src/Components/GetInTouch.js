@@ -20,7 +20,7 @@ export default function () {
     };
 
     return (
-        <div className='getintouch border border-0 rounded-2 d-flex justify-content-center'>
+        <div className=' all-projects-container getintouch border border-0 rounded-2 d-flex justify-content-center text-white'>
             <form ref={form} onSubmit={sendEmail} className='d-flex flex-column'>
                 <label>From: </label>
                 <input type="text" name="user_name" placeholder='Your name' className={`${styles} border border-0 rounded-1`}/>

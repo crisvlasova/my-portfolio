@@ -2,14 +2,15 @@
     color: rgb(55, 55, 55);
     margin: 5rem 25%;
     padding: 35px;
-    background-color: #ffd6d192;
+    background-color: rgb(149 213 255 / 0.29);
 }
+
 .textarea:focus,
 .getintouch input:focus {
     outline: none;
 }
 .getintouch button:hover {
-    background-color: #fccfcaf7;
+    background-color: rgb(11 70 107);
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -19,4 +20,18 @@ input:-webkit-autofill:active {
 }
 .textarea {
     resize: none;
+}
+
+
+@media only screen and (max-width: 840px) {
+
+    .getintouch {
+        margin: 0;
+        padding: 35px;
+        width: 80%;
+    }
+
+    .getintouch input, .getintouch textarea {
+        width: 100%;
+    }
 }

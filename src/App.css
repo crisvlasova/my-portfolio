@@ -1,6 +1,11 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
-    background: linear-gradient(#FCC5C0 30%,#937DC2 90%);
+    /* background: linear-gradient(#FCC5C0 30%,#937DC2 90%); */
+    background: #0b466b;
     color: #ffeaff;
     position: absolute; 
     min-height:100%; 

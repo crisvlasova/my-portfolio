@@ -1,11 +1,20 @@
 .description {
-    color: black !important;
+    display: flex;
+    flex-direction: column;
+    color: #DFF6FF;
     margin: 5rem 12%;
     padding: 35px;
-    background-color: #ffd6d192;
+    background-color: #95d5ff49;
     font-family: 'Varela Round', sans-serif;
     z-index: 2;
     position: relative;
+}
+.description a {
+    color: #47B5FF;
+}
+
+.description a:hover {
+    color: #06283D;
 }
 
 .about-me-photo {
@@ -13,7 +22,7 @@
     object-fit:cover; 
     margin-left: 35%;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.644);
+    border: 5px solid #DFF6FF;
 }
 
 .about-me-presentation {
