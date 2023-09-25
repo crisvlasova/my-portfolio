@@ -28,6 +28,13 @@
     width: 3.5rem;
 }
 
+/* .presentation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+} */
+
 .presentation-container h4 {
     margin: 15px 0;
 }
