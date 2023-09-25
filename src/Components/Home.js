@@ -41,7 +41,7 @@ export default function Home () {
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
 
-                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae </button></a>
+                <a href={downloadCv} onclick={window.open("../Images/Cristina Vlassov EN.pdf, _blank")}><button class='border border-0 rounded py-1 px-3'>See my curriculum</button></a>
                 {/* <img src={downloadLogo} alt='downloadlogo'/> */}
                 <div className='contact'>
                     {links.map(link => {return (
