@@ -28,6 +28,14 @@
     width: 3.5rem;
 }
 
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
 .presentation-container h4 {
     margin: 15px 0;
 }
@@ -52,7 +60,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .contact a {
