@@ -33,7 +33,8 @@ export default function Experience () {
             </h4>
             <div class="icons-cont d-flex flex-row justify-content-center align-self-center mt-3 w-100 flex-wrap">
                 {logos.map(logo => {return (
-                        <img src ={logo} alt='logo' key={logo} class="w-10"/>
+                        <img src={logo} alt='logo' key={logo} style={{width: "50px", height: "50px"}} />
+
                 )})}
             </div>
         </div>
