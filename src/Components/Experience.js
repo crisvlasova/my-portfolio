@@ -25,11 +25,11 @@ export default function Experience () {
             <br/>
             <h4>Languages, frameworks and technologies I've learned until now:
                 <br/>
-                <b> Front-End:</b>  JavaScript, HTML, CSS, React.js, Redux, Bootstrap and Chakra.
+                <b> Front-End:</b> JavaScript, HTML, CSS, React.js, Redux, Bootstrap and Tailwind.
                 <br/>
-                <b> Back-End:</b> Node.js, Express.js, SQL and Sequelize.
+                <b> Back-End:</b> Node.js, Express.js, SQL, and PHP.
                 <br/>
-                <b>Others:</b> ActionScript 3.0 and Adobe Animate.
+                <b>Others:</b> ActionScript 3.0 and Adobe Suite.
             </h4>
             <div class="icons-cont d-flex flex-row justify-content-center align-self-center mt-3 w-100 flex-wrap">
                 {logos.map(logo => {return (
