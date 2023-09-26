@@ -1,6 +1,7 @@
 .getintouch {
     color: rgb(55, 55, 55);
-    margin: 5rem 25%;
+    width: 50%;
+    margin: 5rem;
     padding: 35px;
     background-color: rgb(149 213 255 / 0.29);
 }
@@ -28,7 +29,7 @@ input:-webkit-autofill:active {
     .getintouch {
         margin: 0;
         padding: 35px;
-        width: 80%;
+        min-width: 80%;
     }
 
     .getintouch input, .getintouch textarea {

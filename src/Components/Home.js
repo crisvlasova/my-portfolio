@@ -41,8 +41,8 @@ export default function Home () {
             <div className='presentation-container'>
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
-                <a href={downloadCv} download><button class='border border-0 rounded py-1 px-3'>Download my Curriculum Vitae</button></a>
-                <a href={downloadLetter} download><button class='border border-0 rounded py-1 px-3'>Download my Cover Letter</button></a>
+                <a href={downloadLetter} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my Cover Letter</button></a>
+                <a href={downloadCv} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my CV</button></a>
 
                 {/* <img src={downloadLogo} alt='downloadlogo'/> */}
                 <div className='contact'>
