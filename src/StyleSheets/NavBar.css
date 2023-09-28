@@ -2,16 +2,19 @@
     position:sticky;
     z-index: 5
 }
+
 .in-path {
     background: transparent !important;
     color: white;
 }
+
 .navbar-button {
     margin: 10px;
     background-color: #dff6ff8e;
     align-items: center;
     transition: background 0.5s ease;
 }
+
 .navbar-button:hover {
     background: transparent;
     color: #DFF6FF;

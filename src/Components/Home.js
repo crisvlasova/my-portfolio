@@ -11,7 +11,11 @@ import databaseLogo from '../Images/icons8-database-50.png'
 import tailwind from '../Images/tailwind.png'
 import bootstrap from '../Images/bootstrap.png'
 import downloadCv from '../Images/Cristina Vlassov EN.pdf'
+<<<<<<< HEAD
 import downloadLetter from '../Images/Cristina Vlassov EN.pdf'
+=======
+import coverLetter from '../Images/Cover letter EN.pdf'
+>>>>>>> second-commit
 import linkedinLogo from '../Images/icons8-linkedin-circled-30.png';
 import githubLogo from '../Images/icons8-github-24.png'
 import gmailLogo from '../Images/icons8-gmail-32.png'
@@ -41,10 +45,8 @@ export default function Home () {
             <div className='presentation-container'>
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
-                <a href={downloadLetter} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my Cover Letter</button></a>
+                <a href={coverLetter} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my Cover Letter</button></a>
                 <a href={downloadCv} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my CV</button> </a>
-
-                {/* <img src={downloadLogo} alt='downloadlogo'/> */}
                 <div className='contact'>
                     {links.map(link => {return (
                         <a href={link.href} key={link.name} class="anchor" target='_blank' rel='noopener noreferrer'>
