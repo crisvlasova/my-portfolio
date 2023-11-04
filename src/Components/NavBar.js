@@ -44,7 +44,7 @@ export default function NavBar() {
 
     return (
         <div className='navbar-menu-container'>
-            <div className=' d-flex flex-row justify-content-center align-items-center position-relative'>
+            <div className='d-flex flex-row justify-content-center align-items-center position-relative'>
 
                 <nav className="navbar">
                     <div className="container-fluid">
