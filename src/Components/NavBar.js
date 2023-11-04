@@ -27,8 +27,12 @@ export default function NavBar() {
             name: 'Experience'
         },
         {
-            to: '/projects',
-            name: 'Projects'
+            to: '/pprojects',
+            name: 'Programming projects'
+        },
+        {
+            to: '/dprojects',
+            name: 'Design projects'
         },
         {
             to: '/contact',
