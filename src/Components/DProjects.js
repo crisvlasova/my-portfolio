@@ -14,7 +14,7 @@ export default function Projects() {
                 <p>
                     Click the image to see whole picture.
                 </p>
-                <div class='project-container-div'> 
+                <div className='project-container-div'> 
                     <a href='https://abappra.org.ar/vista/img/head/imagenSlider14.jpg' alt='abappraBanner' rel='noopener noreferer' target='_blank'>
                         <img src={abappraBanner} alt='abappraBanner' className='breaking-bad-image rounded-2' />
                     </a>
@@ -26,7 +26,7 @@ export default function Projects() {
                 <p>
                     Click the image to see whole flyer.
                 </p>
-                <div class='project-container-div'>
+                <div className='project-container-div'>
                     <a href='http://abe.org.ar/newsletter/2023/gestion-y-privacidad-de-datos/index.html' alt='abeflyer' rel='noopener noreferer' target='_blank'>
                         <img src={abeFlyer} alt='abeFlyer' className='breaking-bad-image rounded-2' />
                     </a>
@@ -38,7 +38,7 @@ export default function Projects() {
                 <p>
                     Click the image to see whole flyer.
                 </p>
-                <div class='project-container-div'>
+                <div className='project-container-div'>
                     <a href='https://abappra.org.ar/vista/newsletter/2023/ciclo-de-charlas-abiertas-de-FinTech-2/index.html' alt='abappraflyer1' rel='noopener noreferer' target='_blank'>
                         <img src={abappraFlyer1} alt='abappraFlyer1' className='breaking-bad-image rounded-2' />
                     </a>
@@ -50,7 +50,7 @@ export default function Projects() {
                 <p>
                     Click the image to see whole flyer.
                 </p>
-                <div class='project-container-div'>
+                <div className='project-container-div'>
                     <a href='https://abappra.org.ar/vista/newsletter/2023/cbdc-monedas-digitales-de-bancos/index.html' alt='abappraflyer2' rel='noopener noreferer' target='_blank'>
                         <img src={abappraFlyer2} alt='abappraFlyer2' className='breaking-bad-image rounded-2' />
                     </a>

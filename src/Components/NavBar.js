@@ -61,8 +61,8 @@ export default function NavBar() {
                     <div className={active ? 'responsive-menu-div flex-column position-absolute p-3' : 'd-none'}>
                         {links.map(link => {
                             return (
-                                <Link to={link.to} className={loc === link.to ? 'in-path' : null} key={link.name}>
-                                    <button onClick={handleClick} className='menu-button bg-transparent' key={link.name}>
+                                <Link to={link.to} key={link.name} className={loc === link.to ? 'in-path' : null}>
+                                    <button onClick={handleClick} key={link.name} className='menu-button bg-transparent'>
                                         {link.name}
                                     </button>
                                 </Link>
@@ -74,7 +74,7 @@ export default function NavBar() {
                 <div className='button-container'>
                     {links.map(link => {
                         return (
-                            <Link to={link.to}>
+                            <Link to={link.to} key={link.name}>
                                 <button className={loc === link.to ? `in-path ${navbutton}` :
                                     navbutton} key={link.name}>
                                     {link.name}
