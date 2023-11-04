@@ -3,7 +3,8 @@ import Home from './Components/Home.js';
 import Particle from './Components/Particle.js';
 import AboutMe from './Components/AboutMe.js';
 import Experience from './Components/Experience.js';
-import Projects from './Components/Projects.js';
+import DProjects from './Components/DProjects.js';
+import PProjects from './Components/PProjects.js';
 import GetInTouch from './Components/GetInTouch.js';
 import { Route } from 'react-router-dom';
 import 'animate.css'
@@ -17,7 +18,8 @@ function App() {
       <Route exact path='/' component={Home}/>
       <Route path='/aboutme' component={AboutMe}/>
       <Route path='/experience' component={Experience}/>
-      <Route path='/projects' component={Projects}/>
+      <Route path='/pprojects' component={PProjects}/>
+      <Route path='/dprojects' component={DProjects}/>
       <Route path='/contact' component={GetInTouch}/>
     </div>
   );

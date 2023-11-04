@@ -1,6 +1,5 @@
 import React from 'react';
 import dogImage from '../Images/dogImage.png';
-import breakingbad from '../Images/breakingbad.png';
 import pf from '../Images/pf.png'
 import partyRoom from '../Images/salon-detalle.png'
 import '../StyleSheets/Projects.css'
@@ -9,7 +8,7 @@ export default function Projects() {
 
     return (
         <div className='all-projects-container'>
-            <div className='description projects-container border border-0 rounded-2'>
+            {/* <div className='description projects-container border border-0 rounded-2'>
                 <h2>Front-end app:</h2>
                 <p>
                     This app was made with <a href='https://breakingbadapi.com/'>Breaking Bad Api</a> where
@@ -23,7 +22,7 @@ export default function Projects() {
                     <br />
                     <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
                 </div>
-            </div>
+            </div> */}
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>Full-Stack app:</h2>
                 <p>
