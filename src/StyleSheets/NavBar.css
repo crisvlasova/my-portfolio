@@ -47,6 +47,8 @@
     .navbar-menu-container {
         display: flex;
         flex-direction: column;
+        align-self: flex-end;
+        margin-right:40px
     }
 
     .responsive-menu-div {
@@ -54,13 +56,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: start;
-        gap: 5px;
+        gap: 9px;
         background: #66b8d8c9;
         border-radius: 20px;
-        margin: 0 0 0 35px;
         font-size: 18px;
         border: 2px solid white;
-        /* border: none !important; */
+        width: 200px;
+        min-width: 150px;
+        right:40px
     }
 
     .menu-button {
@@ -79,6 +82,7 @@
     .responsive-menu-div button {
         width: 100%;
         text-align: start;
+        line-height: 20px;
     }
 
     .responsive-menu-div button:active {
