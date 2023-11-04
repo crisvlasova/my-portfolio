@@ -118,7 +118,7 @@ export default function Particle () {
                     }
                 }
             },
-            "retina_detect": true,
+            "retina_detect": false,
         }}
         />
     )
