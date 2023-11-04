@@ -6,7 +6,7 @@
     padding: 35px;
     background-color: #95d5ff49;
     font-family: 'Varela Round', sans-serif;
-    z-index: 2;
+    z-index: 1;
     position: relative;
     min-width: 300px;
 }
