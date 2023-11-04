@@ -55,14 +55,14 @@ export default function NavBar() {
                 </nav>
 
                 <div className='responsive-menu'>
-                    <button onClick={handleClick} class='menu-img bg-transparent border transparent border-0  text-white'>
+                    <button onClick={handleClick} className='menu-img bg-transparent border transparent border-0  text-white'>
                         <img src={menu}></img>
                     </button>
                     <div className={active ? 'responsive-menu-div flex-column position-absolute p-3' : 'd-none'}>
                         {links.map(link => {
                             return (
-                                <Link to={link.to} className={loc === link.to ? 'in-path' : null}>
-                                    <button onClick={handleClick} class='menu-button bg-transparent'>
+                                <Link to={link.to} key={link.name} className={loc === link.to ? 'in-path' : null}>
+                                    <button onClick={handleClick} key={link.name} className='menu-button bg-transparent'>
                                         {link.name}
                                     </button>
                                 </Link>
@@ -74,9 +74,9 @@ export default function NavBar() {
                 <div className='button-container'>
                     {links.map(link => {
                         return (
-                            <Link to={link.to}>
+                            <Link to={link.to} key={link.name}>
                                 <button className={loc === link.to ? `in-path ${navbutton}` :
-                                    navbutton}>
+                                    navbutton} key={link.name}>
                                     {link.name}
                                 </button>
                             </Link>
