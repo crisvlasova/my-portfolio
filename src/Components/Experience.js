@@ -33,12 +33,7 @@ export default function Experience () {
             </h4>
             <div className="icons-cont d-flex flex-row justify-content-center align-self-center mt-3 w-100 flex-wrap">
                 {logos.map(logo => {return (
-<<<<<<< HEAD
-                        <img src={logo} alt='logo' key={logo} style={{width: "50px", height: "50px"}} />
-
-=======
                         <img src ={logo} alt='logo' key={logo} className="w-10"/>
->>>>>>> second-commit
                 )})}
             </div>
         </div>
