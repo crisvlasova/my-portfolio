@@ -3,11 +3,13 @@ import '../StyleSheets/AboutMe.css'
 import photo from '../Images/barman2.png';
 
 export default function AboutMe () {
+    let year = new Date().getFullYear();
+    let yearsOld = year - 2002;
     return (
         <div className='about-me-presentation description border border-0 rounded-2'>
             <div>
                 <h2>About me:</h2>
-                <h4>I'm Cristina, I'm 21 years old, living in Buenos Aires, Argentina, and currently working as Full-stack developer in Web Line Service.
+                <h4>I'm Cristina, I'm {yearsOld} years old, living in Buenos Aires, Argentina, and currently working as Full-stack developer in Web Line Service.
                 <br/>
                 I am a hard working and versatile person, being capable of adapting to any environment.
                 I am a fastlearner, always willing to learn new skills.
