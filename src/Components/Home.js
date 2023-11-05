@@ -45,14 +45,9 @@ export default function Home () {
             <div className='presentation-container'>
                 <h1>Hi, I'm Cristina Vlassov</h1>
                 <h4>I'm a Junior Full-Stack Developer</h4>
-<<<<<<< HEAD
-                <a href={coverLetter} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my Cover Letter</button></a>
-                <a href={downloadCv} target="_blank" rel="noopener noreferrer"><button class='border border-0 rounded py-1 px-3'>Open my CV</button> </a>
-=======
 
                 <a href={coverLetter} target="_blank" rel="noopener noreferrer"><button className='border border-0 rounded py-1 px-3'>Open my Cover Letter</button></a>
                 <a href={downloadCv} target="_blank" rel="noopener noreferrer"><button className='border border-0 rounded py-1 px-3'>Open my CV</button> </a>
->>>>>>> second-commit
                 <div className='contact'>
                     {links.map(link => {return (
                         <a href={link.href} key={link.name} className="anchor" target='_blank' rel='noopener noreferrer'>
