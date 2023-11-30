@@ -17,7 +17,7 @@ export default function Experience () {
             <h2>Experience:</h2>
             <h4>
                 My journey started in January of 2022 when I met SoyHenry. After a few weeks learning about JavaScript I realeazed this was my dream job. I was so excited
-                that I started developing projects by myself as the autodidact person I am; currently I have 3 projects: one with only Front-end and two Full-Stack, you can visit them <Link to='projects' className='text-decoration-none text-pink'>here</Link>; I graduated with the last project, the tech 'Unknown coder' e-commerce.<br/>
+                that I started developing projects by myself as the autodidact person I am; currently I have 3 projects: one with only Front-end and two Full-Stack, you can visit them <Link to='pprojects' className='text-decoration-none text-pink'>here</Link>; I graduated with the last project, the tech 'Unknown coder' e-commerce.<br/>
                 <br/>
                 Also I finished SoyHenry's Teacher Assistant programm, wich consists in coordinating a students group to achieve integration between them and other groups, guiding them in the first steps of this course, assisting the pair programming and promoting group colaboration and finally proposing ideas to improve SoyHenry's bootcamp processes.
                 My most relevant experiences are being a Full Stack and Interactive developer in Skill-on Ecuador, in wich my role included creating animated infographic and interfaces for corporative courses; and in other hand, my current job, wich envolves developing web pages and giving them tech support.
