@@ -32,7 +32,7 @@ export default function Projects() {
                     <h5><a href='http://www.assisi.com.ar/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit WEB site</a></h5>
                 </div>
             </div>
-            {/* <div className='description projects-container border border-0 rounded-2'>
+            <div className='description projects-container border border-0 rounded-2'>
                 <h2>Rosello</h2>
                 <p>
                     This is my final project from Henry's bootcamp, is a tech e-commerce. I led the Front-end part developing
@@ -47,7 +47,7 @@ export default function Projects() {
                     <br />
                     <h5><a href='https://unknowncoder.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
