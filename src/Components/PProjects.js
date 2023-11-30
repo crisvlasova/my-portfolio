@@ -8,21 +8,6 @@ export default function Projects() {
 
     return (
         <div className='all-projects-container'>
-            {/* <div className='description projects-container border border-0 rounded-2'>
-                <h2>Front-end app:</h2>
-                <p>
-                    This app was made with <a href='https://breakingbadapi.com/'>Breaking Bad Api</a> where
-                    we can see all the characters and their details. For more information visit
-                    the page or the repository.
-                </p>
-                <img src={breakingbad} alt='breaking-bad' className='breaking-bad-image rounded-2' />
-                <br/>
-                <div className ='link-container'>
-                    <h5><a href='https://github.com/crisvlasova/Breaking-Bad-App' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit repository</a></h5>
-                    <br />
-                    <h5><a href='https://breaking-bad-app-indol.vercel.app/' className='link-to text-white text-decoration-none' target='_blank' rel='noopener'>Visit page</a></h5>
-                </div>
-            </div> */}
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>Full-Stack app:</h2>
                 <p>
