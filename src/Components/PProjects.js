@@ -9,9 +9,9 @@ export default function Projects() {
     return (
         <div className='all-projects-container'>
             <div className='description projects-container border border-0 rounded-2'>
-                <h2>Front-End app:</h2>
+                <h2>Matiss WEB site:</h2>
                 <p>
-                    This project is about a party-room located in Buenos Aires, where is a breve description about the environment, their services and how to contact them to book a date.
+                    This project is about a party-room located in Buenos Aires, where is a breve description about the environment, their services and how to contact them to book a date. The technologies used were HTML, CSS, JavaScript, React and Redux.
                 </p>
                 <img src={partyRoom} alt='party room image' className='breaking-bad-image rounded-2' />
                 <br />
@@ -24,7 +24,7 @@ export default function Projects() {
             <div className='description projects-container border border-0 rounded-2'>
                 <h2>ASSISI WEB site:</h2>
                 <p>
-                    This front-end app was developed for the company ASSISI, wich is a plain and static page.
+                    This front-end app was developed for the company ASSISI, wich is a plain and static page. It was developed with pure HTML, CSS, JavaScript and PHP.
                 </p>
                 <img src={assisiImage} alt='assisi' className='breaking-bad-image rounded-2' />
                 <br/>
@@ -33,7 +33,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className='description projects-container border border-0 rounded-2'>
-                <h2>Full Stack WEB site:</h2>
+                <h2>Full Stack project:</h2>
                 <p>
                     This is my final project from Henry's bootcamp, is a tech e-commerce. I led the Front-end part developing
                     the design of the page, responsive and authentication with Auth0.
