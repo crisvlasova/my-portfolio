@@ -38,7 +38,7 @@ export default function Projects() {
                     This is my final project from Henry's bootcamp, is a tech e-commerce. I led the Front-end part developing
                     the design of the page, responsive and authentication with Auth0.
                     The used technologies were JavaScript, React, Redux, Bootstrap, CSS, HTML, Node.js, Express.js, Sequelize
-                    and SQL
+                    and SQL.
                 </p>
                 <img src={pf} alt='pf' className='breaking-bad-image rounded-2' />
                 <br />
