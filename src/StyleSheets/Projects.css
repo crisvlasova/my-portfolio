@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-self: center;
+    max-width: 1000px
 }
 
 .projects-container {
