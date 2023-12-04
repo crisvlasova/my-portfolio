@@ -46,13 +46,13 @@ export default function NavBar() {
         <div className='navbar-menu-container'>
             <div className='d-flex flex-row justify-content-center align-items-center position-relative'>
 
-                <nav className="navbar">
+                {/* <nav className="navbar">
                     <div className="container-fluid">
                         <a className="navbar-brand">
                             <img src={C} className="d-inline-block align-text-top" />
                         </a>
                     </div>
-                </nav>
+                </nav> */}
 
                 <div className='responsive-menu'>
                     <button onClick={handleClick} className='menu-img bg-transparent border transparent border-0  text-white'>
