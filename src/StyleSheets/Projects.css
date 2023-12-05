@@ -8,11 +8,12 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-self: center;
-    max-width: 900px
+    max-width: 900px;
+    gap: 2rem;
 }
 
 .projects-container {
-    margin: 30px !important;
+    margin: 30px 0 0 0;
     width: 40%;
     z-index: 2;
     display: flex;
