@@ -1,6 +1,15 @@
 .navbar-menu-container {
     position:sticky;
-    z-index: 5
+    z-index: 5;
+    padding: 50px 0;
+}
+
+.navbar-menu-container-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .in-path {
@@ -48,7 +57,14 @@
         display: flex;
         flex-direction: column;
         align-self: flex-end;
-        margin-right:40px
+        /* margin-right:40px */
+    }
+
+    .navbar-menu-container-div {
+        display: flex;
+        justify-content: end !important;
+        position: relative;
+        right: 30px;
     }
 
     .responsive-menu-div {
@@ -73,6 +89,7 @@
     .in-path {
         background-color: #DFF6FF !important;
         border-radius: 10px;
+        padding: 4px 2px;
     }
 
     .responsive-menu-div Link {
